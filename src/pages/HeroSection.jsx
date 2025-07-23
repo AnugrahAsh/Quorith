@@ -48,11 +48,10 @@ const HeroSection = () => {
     }
   };
 
-
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-[#0a0a0a] to-[#1a1a1a] text-white overflow-hidden">
       {isMounted && <ThreeScene />}
-      <header className="absolute top-0 right-0 p-4 md:p-10 z-30">
+      <header className="absolute top-0 right-0 p-6 md:p-10 z-30">
         <motion.div 
           className="relative group"
           variants={buttonVariants}
@@ -66,21 +65,23 @@ const HeroSection = () => {
         </motion.div>
       </header>
 
-      <div className="relative z-10 flex items-center justify-center h-screen">
+      <div className="relative z-10 flex items-center justify-center h-screen px-4">
         <motion.div 
           className="text-center"
           variants={textContainerVariants}
           initial="hidden"
           animate={controls}
         >
+          {/* UPDATED: Responsive font sizes for the subtitle */}
           <motion.h2 
-            className="text-4xl md:text-6xl font-light text-gray-300"
+            className="text-3xl md:text-5xl font-light text-gray-300"
             variants={textVariants}
           >
             Welcome To
           </motion.h2>
+          {/* UPDATED: More granular responsive font sizes for the main title */}
           <motion.h1 
-            className="text-8xl md:text-[200px] lg:text-[240px] font-black text-white"
+            className="text-7xl sm:text-8xl md:text-[150px] lg:text-[200px] font-black text-white leading-none"
             variants={textVariants}
           >
             Synthara
@@ -101,14 +102,22 @@ const ThreeScene = () => {
         // Scene setup
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-        camera.position.z = 5;
-
+        
         const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
         renderer.setSize(window.innerWidth, window.innerHeight);
         mountRef.current.appendChild(renderer.domElement);
 
-        // Torus Knot Geometry - Increased size from 1.5 to 2.5
-        const geometry = new THREE.TorusKnotGeometry(2.5, 0.3, 200, 20);
+        // --- RESPONSIVE CHANGES START ---
+        const isMobile = window.innerWidth < 768;
+
+        // UPDATED: Dynamically set the TorusKnot size and camera position based on screen width
+        const knotRadius = isMobile ? 1.5 : 2.5;
+        const knotTubeRadius = isMobile ? 0.2 : 0.3;
+        camera.position.z = isMobile ? 6 : 5; // Move camera back slightly on mobile
+
+        const geometry = new THREE.TorusKnotGeometry(knotRadius, knotTubeRadius, 200, 20);
+        // --- RESPONSIVE CHANGES END ---
+
         const material = new THREE.MeshStandardMaterial({ 
             color: 0xffffff, 
             metalness: 0.9, 
@@ -141,7 +150,6 @@ const ThreeScene = () => {
             torusKnot.rotation.x += 0.001;
             torusKnot.rotation.y += 0.002;
 
-            // Subtle camera movement based on mouse position
             camera.position.x += (mouse.x * 2 - camera.position.x) * 0.02;
             camera.position.y += (mouse.y * 2 - camera.position.y) * 0.02;
             camera.lookAt(scene.position);
@@ -162,7 +170,7 @@ const ThreeScene = () => {
         return () => {
             window.removeEventListener('resize', handleResize);
             window.removeEventListener('mousemove', onMouseMove);
-            if (mountRef.current) {
+            if (mountRef.current && renderer.domElement) {
                 mountRef.current.removeChild(renderer.domElement);
             }
         };
