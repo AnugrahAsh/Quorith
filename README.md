@@ -1,6 +1,6 @@
-# Synthara
+# Quorith
 
-Synthara is an AI-driven personal improvement and planning companion that helps you align your daily actions with your long-term goals using structured planning and intelligent daily suggestions within a clean, minimal interface.
+Quorith is an AI-driven personal improvement and planning companion that helps you align your daily actions with your long-term goals using structured planning and intelligent daily suggestions within a clean, minimal interface.
 
 ---
 
@@ -13,7 +13,7 @@ Synthara is an AI-driven personal improvement and planning companion that helps 
   Create and manage daily, weekly, monthly, and yearly plans that align with your ambitions.
 
 - **Clean, Distraction-Free Design**  
-  Synthara keeps your focus on priorities without unnecessary clutter.
+  Quorith keeps your focus on priorities without unnecessary clutter.
 
 - **Progress Tracking**  
   Monitor your consistency and progress with clear, actionable insights.

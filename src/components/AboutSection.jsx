@@ -12,7 +12,7 @@ const AboutSection = () => {
                     Master Yourself, Master Your Life
                 </motion.h2>
                 <motion.p className="text-lg md:text-xl text-gray-300 leading-relaxed" variants={itemVariants}>
-                    Synthara is a full-stack self-improvement and personal mastery web application designed to help you achieve your full potential. It combines a powerful planning system with an AI coach to provide structure, accountability, and tailored suggestions, all within a clean, calming UI designed to reduce cognitive clutter.
+                    Quorith is a full-stack self-improvement and personal mastery web application designed to help you achieve your full potential. It combines a powerful planning system with an AI coach to provide structure, accountability, and tailored suggestions, all within a clean, calming UI designed to reduce cognitive clutter.
                 </motion.p>
             </div>
         </motion.section>

@@ -1,7 +1,7 @@
 import React from 'react';
 
-// --- Data for Footer Links (Tailored for Synthara) ---
-// This data is now based on the features and goals of the Synthara platform.
+// --- Data for Footer Links (Tailored for Quorith) ---
+// This data is now based on the features and goals of the Quorith platform.
 const footerSections = [
     {
         title: 'Features',
@@ -92,15 +92,15 @@ export default function Footer() {
             `}</style>
             <footer className="bg-[black] text-white w-full  rounded-2xl p-8 sm:p-12 md:p-16 relative overflow-hidden">
             <div className="footer-bg-text" aria-hidden="true">
-                Synthara
+                Quorith
             </div>
 
             <div className="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
                 <div className="lg:col-span-2">
-                    {/* Updated copy to match Synthara's mission */}
+                    {/* Updated copy to match Quorith's mission */}
                     <h3 className="text-lg font-semibold text-white mb-4">Start Your Intentional Growth</h3>
                     <p className="text-gray-400 mb-5 text-sm max-w-sm">
-                        Receive insights on personal growth, productivity, and updates from the Synthara team.
+                        Receive insights on personal growth, productivity, and updates from the Quorith team.
                     </p>
                     <form className="flex items-center w-full max-w-sm">
                         <input 
@@ -128,7 +128,7 @@ export default function Footer() {
             </div>
 
             <div className="relative z-10 mt-16 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center">
-                <p className="text-sm text-gray-500">&copy; {new Date().getFullYear()} Synthara, Inc. All rights reserved.</p>
+                <p className="text-sm text-gray-500">&copy; {new Date().getFullYear()} Quorith, Inc. All rights reserved.</p>
                 <div className="flex space-x-6 mt-4 sm:mt-0">
                     <a href="#" className="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200">Privacy Policy</a>
                     <a href="#" className="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200">Terms of Service</a>

@@ -84,7 +84,7 @@ const HeroSection = () => {
             className="text-7xl sm:text-8xl md:text-[150px] lg:text-[200px] font-black text-white leading-none"
             variants={textVariants}
           >
-            Synthara
+            Quorith
           </motion.h1>
         </motion.div>
       </div>

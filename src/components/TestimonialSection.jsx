@@ -29,7 +29,7 @@ const testimonialsData = [
   {
     name: "Alex Morgan",
     role: "Software Engineer",
-    quote: "Synthara completely changed how I approach my personal projects. The AI goals keep me focused, and I'm more consistent than ever before.",
+    quote: "Quorith completely changed how I approach my personal projects. The AI goals keep me focused, and I'm more consistent than ever before.",
     image: "https://placehold.co/100x100/1F2937/FFFFFF?text=A",
   },
   {
@@ -41,7 +41,7 @@ const testimonialsData = [
   {
     name: "David Rodriguez",
     role: "Student",
-    quote: "As a student juggling multiple subjects, Synthara helped me structure my learning goals and stay consistent. I feel so much more organized.",
+    quote: "As a student juggling multiple subjects, Quorith helped me structure my learning goals and stay consistent. I feel so much more organized.",
     image: "https://placehold.co/100x100/1F2937/FFFFFF?text=D",
   },
   {
@@ -53,7 +53,7 @@ const testimonialsData = [
    {
     name: "Michael Lee",
     role: "Entrepreneur",
-    quote: "Synthara is the 'second brain' I've been looking for. It's streamlined, powerful, and keeps all my ambitions in one place.",
+    quote: "Quorith is the 'second brain' I've been looking for. It's streamlined, powerful, and keeps all my ambitions in one place.",
     image: "https://placehold.co/100x100/1F2937/FFFFFF?text=M",
   },
 ];
@@ -105,7 +105,7 @@ const TestimonialsSection = () => {
                         Trusted by Innovators
                     </h2>
                     <p className="text-lg text-gray-400 mt-4 max-w-2xl mx-auto">
-                        Discover why high-achievers choose Synthara to orchestrate their success.
+                        Discover why high-achievers choose Quorith to orchestrate their success.
                     </p>
                 </motion.div>
             </div>

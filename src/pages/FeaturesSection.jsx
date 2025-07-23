@@ -64,7 +64,7 @@
 //                     className="text-center text-gray-400 max-w-xl mx-auto mb-16"
 //                     variants={itemVariants}
 //                 >
-//                     Explore how Synthara helps you systematically level up your life with structured, AI-assisted mastery.
+//                     Explore how Quorith helps you systematically level up your life with structured, AI-assisted mastery.
 //                 </motion.p>
 
 //                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -266,7 +266,7 @@
 //           Core Features
 //         </motion.h2>
 //         <motion.p className="text-center text-gray-400 max-w-xl mx-auto mb-16" variants={itemVariants}>
-//           Explore how Synthara helps you systematically level up your life with structured, AI-assisted mastery.
+//           Explore how Quorith helps you systematically level up your life with structured, AI-assisted mastery.
 //         </motion.p>
 //         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 //           {featuresData.map((feature, index) => (
@@ -454,7 +454,7 @@ const FeaturesSection = () => {
                     className="text-center text-gray-400 max-w-xl mx-auto mb-16"
                     variants={itemVariants}
                 >
-                    Explore how Synthara helps you systematically level up your life with structured, AI-assisted mastery.
+                    Explore how Quorith helps you systematically level up your life with structured, AI-assisted mastery.
                 </motion.p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
