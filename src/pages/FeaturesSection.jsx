@@ -3,8 +3,8 @@
 // import { motion } from 'framer-motion';
 
 // const featuresData = [
-//     { title: "AI-Driven Daily Goals", description: "Receive smart, daily goal suggestions based on your long-term plans and ambitions.", icon: "🎯" },
-//     { title: "Comprehensive Planning", description: "Structure your ambitions with daily, weekly, monthly, and yearly plans.", icon: "📅" },
+//     { title: "AI-Driven Daily Goals", description: "Receive smart, daily goal suggestions based on your long-term Planss and ambitions.", icon: "🎯" },
+//     { title: "Comprehensive Plansning", description: "Structure your ambitions with daily, weekly, monthly, and yearly Planss.", icon: "📅" },
 //     { title: "To-Do & Habit Tracker", description: "Build consistency with custom tasks, recurring habits, and streak tracking.", icon: "✅" },
 //     { title: "Reflection Journal", description: "Gain insights with end-of-day prompts and AI-powered pattern summaries.", icon: "✍️" },
 //     { title: "Analytics Dashboard", description: "Visualize your progress and consistency with beautiful charts and reports.", icon: "📊" },
@@ -172,12 +172,12 @@
 // const featuresData = [
 //   {
 //     title: "AI-Driven Daily Goals",
-//     description: "Receive smart, daily goal suggestions based on your long-term plans and ambitions.",
+//     description: "Receive smart, daily goal suggestions based on your long-term Planss and ambitions.",
 //     icon: Target,
 //   },
 //   {
-//     title: "Comprehensive Planning",
-//     description: "Structure your ambitions with daily, weekly, monthly, and yearly plans.",
+//     title: "Comprehensive Plansning",
+//     description: "Structure your ambitions with daily, weekly, monthly, and yearly Planss.",
 //     icon: CalendarDays,
 //   },
 //   {
@@ -341,8 +341,8 @@ import {
 
 // UPDATED: featuresData now uses lucide-react components for icons
 const featuresData = [
-    { title: "AI-Driven Daily Goals", description: "Receive smart, daily goal suggestions based on your long-term plans and ambitions.", icon: <Target className="w-10 h-10 text-white/90" /> },
-    { title: "Comprehensive Planning", description: "Structure your ambitions with daily, weekly, monthly, and yearly plans.", icon: <CalendarDays className="w-10 h-10 text-white/90" /> },
+    { title: "AI-Driven Daily Goals", description: "Receive smart, daily goal suggestions based on your long-term Planss and ambitions.", icon: <Target className="w-10 h-10 text-white/90" /> },
+    { title: "Comprehensive Plansning", description: "Structure your ambitions with daily, weekly, monthly, and yearly Planss.", icon: <CalendarDays className="w-10 h-10 text-white/90" /> },
     { title: "To-Do & Habit Tracker", description: "Build consistency with custom tasks, recurring habits, and streak tracking.", icon: <CheckSquare className="w-10 h-10 text-white/90" /> },
     { title: "Reflection Journal", description: "Gain insights with end-of-day prompts and AI-powered pattern summaries.", icon: <BookOpen className="w-10 h-10 text-white/90" /> },
     { title: "Analytics Dashboard", description: "Visualize your progress and consistency with beautiful charts and reports.", icon: <BarChart3 className="w-10 h-10 text-white/90" /> },

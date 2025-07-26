@@ -64,9 +64,10 @@ const CTASection = () => {
                     </motion.p>
 
                     {/* Button with new black background and white text */}
-                    <motion.button
+                    <motion.a
                         className="bg-black text-white font-bold py-4 px-10 rounded-full text-lg shadow-[0_10px_30px_rgba(0,0,0,0.1)]"
                         variants={itemVariants}
+                        href='/signup'
                         whileHover={{ 
                             scale: 1.05,
                             boxShadow: "0px 10px 40px rgba(0, 0, 0, 0.2)"
@@ -74,7 +75,7 @@ const CTASection = () => {
                         whileTap={{ scale: 0.95 }}
                     >
                         Get Started Now
-                    </motion.button>
+                    </motion.a>
                 </motion.div>
             </div>
         </section>

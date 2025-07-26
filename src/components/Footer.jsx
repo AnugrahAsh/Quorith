@@ -7,7 +7,7 @@ const footerSections = [
         title: 'Features',
         links: [
             { name: 'AI Daily Goals', href: '#' },
-            { name: 'Structured Planning', href: '#' },
+            { name: 'Structured Plansning', href: '#' },
             { name: 'Habit Tracking', href: '#' },
             { name: 'Analytics Dashboard', href: '#' },
             { name: 'Integrations', href: '#' },

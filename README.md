@@ -1,6 +1,6 @@
 # Quorith
 
-Quorith is an AI-driven personal improvement and planning companion that helps you align your daily actions with your long-term goals using structured planning and intelligent daily suggestions within a clean, minimal interface.
+Quorith is an AI-driven personal improvement and Plansning companion that helps you align your daily actions with your long-term goals using structured Plansning and intelligent daily suggestions within a clean, minimal interface.
 
 ---
 
@@ -9,8 +9,8 @@ Quorith is an AI-driven personal improvement and planning companion that helps y
 - **AI-Driven Daily Goals**  
   Receive intelligent, personalized daily goal suggestions aligned with your long-term objectives.
 
-- **Comprehensive Planning**  
-  Create and manage daily, weekly, monthly, and yearly plans that align with your ambitions.
+- **Comprehensive Plansning**  
+  Create and manage daily, weekly, monthly, and yearly Planss that align with your ambitions.
 
 - **Clean, Distraction-Free Design**  
   Quorith keeps your focus on priorities without unnecessary clutter.

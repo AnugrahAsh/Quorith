@@ -59,7 +59,7 @@ const HeroSection = () => {
           animate={controls}
         >
           <button className="bg-white text-black font-bold py-3 px-6 rounded-md relative z-10 transition-transform duration-300 ease-in-out group-hover:translate-x-[-4px] group-hover:translate-y-[-4px]">
-            <a href="#">Get Started</a>
+            <a href="/signup">Get Started</a>
           </button>
           <div className="absolute top-0 left-0 w-full h-full border-2 border-white rounded-md transition-transform duration-300 ease-in-out group-hover:translate-x-[4px] group-hover:translate-y-[4px]"></div>
         </motion.div>
