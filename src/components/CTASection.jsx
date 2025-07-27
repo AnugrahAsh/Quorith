@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import * as THREE from 'three';
+import { Link } from 'react-router-dom';
 
 // Main App component to render the CTA Section
 export default function App() {
@@ -64,11 +65,11 @@ const CTASection = () => {
                     </motion.p>
 
                     {/* Button with new black background and white text */}
-                    <motion.a
-                        className="bg-black text-white font-bold py-4 px-10 rounded-full text-lg shadow-[0_10px_30px_rgba(0,0,0,0.1)]"
-                        variants={itemVariants}
-                        href='/signup'
-                        whileHover={{ 
+                    <Link to="/signup">
+                        <motion.a
+                            className="bg-black text-white font-bold py-4 px-10 rounded-full text-lg shadow-[0_10px_30px_rgba(0,0,0,0.1)]"
+                            variants={itemVariants}
+                            whileHover={{
                             scale: 1.05,
                             boxShadow: "0px 10px 40px rgba(0, 0, 0, 0.2)"
                         }}
@@ -76,6 +77,7 @@ const CTASection = () => {
                     >
                         Get Started Now
                     </motion.a>
+                    </Link>
                 </motion.div>
             </div>
         </section>

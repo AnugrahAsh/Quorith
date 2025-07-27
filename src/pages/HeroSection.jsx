@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useAnimation } from 'framer-motion';
+import {Link} from 'react-router-dom';
 import * as THREE from 'three';
 
 // Main App Component
@@ -59,7 +60,7 @@ const HeroSection = () => {
           animate={controls}
         >
           <button className="bg-white text-black font-bold py-3 px-6 rounded-md relative z-10 transition-transform duration-300 ease-in-out group-hover:translate-x-[-4px] group-hover:translate-y-[-4px]">
-            <a href="/signup">Get Started</a>
+            <Link to="/signup">Get Started</Link>
           </button>
           <div className="absolute top-0 left-0 w-full h-full border-2 border-white rounded-md transition-transform duration-300 ease-in-out group-hover:translate-x-[4px] group-hover:translate-y-[4px]"></div>
         </motion.div>
